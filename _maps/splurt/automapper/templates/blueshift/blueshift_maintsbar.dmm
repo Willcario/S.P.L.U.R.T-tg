@@ -29,12 +29,13 @@
 /obj/item/wrench,
 /obj/machinery/airalarm/directional/east,
 /obj/machinery/button/door/directional/west{
-	id = "changingroomlock";
+	id = changingroomlock;
 	name = "Dormitory Door Lock";
 	normaldoorcontrol = 1;
 	pixel_x = 0;
 	pixel_y = -25;
-	specialfunctions = 4
+	specialfunctions = 4;
+	id_tag = changingroomlock
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/station/common/night_club/changing_room)
@@ -215,7 +216,6 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/firedoor,
-/obj/structure/curtain/bounty,
 /turf/open/floor/iron/dark/textured_large,
 /area/station/common/night_club)
 "gX" = (
@@ -854,11 +854,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
-/obj/structure/curtain/bounty,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public{
 	id = changingroomlock;
-	name = "Changing Room"
+	name = "Changing Room";
+	id_tag = changingroomlock
 	},
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
@@ -965,7 +965,8 @@
 	id = nightclubexteriorshutter;
 	name = "Nightclub Exterior Shutters";
 	pixel_y = 25;
-	pixel_x = 6
+	pixel_x = 6;
+	id_tag = nightclubexteriorshutter
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/station/common/night_club)
@@ -986,7 +987,6 @@
 /turf/open/floor/carpet/purple,
 /area/station/common/night_club)
 "Eo" = (
-/obj/structure/curtain/bounty,
 /obj/machinery/door/airlock{
 	name = "Nightclub Bar"
 	},
@@ -1020,7 +1020,6 @@
 /area/station/common/night_club/changing_room)
 "EC" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/curtain/bounty,
 /obj/machinery/door/airlock{
 	name = "Nightclub Employee Area"
 	},
@@ -1068,6 +1067,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
 	},
+/obj/structure/etherealball,
 /turf/open/floor/iron/dark,
 /area/station/common/night_club)
 "Gz" = (
@@ -1106,7 +1106,8 @@
 /obj/effect/spawner/structure/window/reinforced/tinted,
 /obj/machinery/door/poddoor/shutters/preopen{
 	name = "Nightclub Exterior Shutter";
-	id = nightclubexteriorshutter
+	id = nightclubexteriorshutter;
+	id_tag = nightclubexteriorshutter
 	},
 /turf/open/floor/plating,
 /area/station/common/night_club)
@@ -1474,7 +1475,8 @@
 /obj/effect/landmark/navigate_destination,
 /obj/machinery/door/poddoor/shutters/preopen{
 	name = "Nightclub Exterior Shutter";
-	id = nightclubexteriorshutter
+	id = nightclubexteriorshutter;
+	id_tag = nightclubexteriorshutter
 	},
 /turf/open/floor/iron/dark,
 /area/station/common/night_club)
