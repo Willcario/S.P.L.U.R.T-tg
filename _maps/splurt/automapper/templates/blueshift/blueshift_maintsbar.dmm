@@ -1,12 +1,14 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ab" = (
-/obj/machinery/button{
-	name = "Nightclub Bedroom Lock";
-	id = nightclubbedroom;
-	pixel_x = 25
-	},
 /obj/structure/table/wood/fancy,
 /obj/item/modular_computer/laptop/preset/civilian,
+/obj/machinery/button/door/directional/west{
+	id = "nightclubbedroom";
+	name = "Nightclub Bedroom";
+	normaldoorcontrol = 1;
+	pixel_x = 25;
+	specialfunctions = 4
+	},
 /turf/open/floor/carpet/purple,
 /area/station/common/night_club)
 "al" = (
@@ -26,11 +28,13 @@
 /obj/effect/turf_decal/bot,
 /obj/item/wrench,
 /obj/machinery/airalarm/directional/east,
-/obj/machinery/button{
-	id_tag = NightclubChangingRoom;
+/obj/machinery/button/door/directional/west{
+	id = "changingroomlock";
+	name = "Dormitory Door Lock";
+	normaldoorcontrol = 1;
+	pixel_x = 0;
 	pixel_y = -25;
-	id = s;
-	name = PrivacyLock
+	specialfunctions = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/station/common/night_club/changing_room)
@@ -206,7 +210,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/door/airlock{
 	name = "Nightclub Bedroom";
-	id_tag = NightclubBedroom;
+	id_tag = nightclubbedroom;
 	id = nightclubbedroom
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -355,12 +359,12 @@
 /turf/open/floor/carpet/purple,
 /area/station/common/night_club/back_stage)
 "nw" = (
-/obj/structure/closet/secure_closet/bar,
 /obj/item/melee/baseball_bat,
 /obj/item/clothing/under/costume/tmc,
 /obj/item/clothing/suit/costume/tmc,
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/glasses/sunglasses,
+/obj/structure/closet/secure_closet/personal/cabinet,
 /turf/open/floor/carpet/purple,
 /area/station/common/night_club)
 "op" = (
@@ -668,9 +672,6 @@
 /area/template_noop)
 "xB" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/camera/directional/south{
-	dir = 8
-	},
 /obj/structure/extinguisher_cabinet/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark/textured_large,
@@ -781,6 +782,11 @@
 /obj/structure/chair/sofa/bench/left,
 /obj/machinery/status_display/ai/directional/north,
 /obj/item/radio/intercom/directional/east,
+/obj/machinery/camera/directional/east{
+	c_tag = "Recreation - Nightclub Lockers";
+	name = "hallway camera";
+	dir = 9
+	},
 /turf/open/floor/iron/dark/textured_large,
 /area/station/common/night_club/changing_room)
 "zs" = (
@@ -891,10 +897,6 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/station/common/night_club)
 "Cv" = (
-/obj/machinery/camera/directional/east{
-	c_tag = "Recreation - Nightclub Lockers";
-	name = "hallway camera"
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
@@ -1150,14 +1152,14 @@
 /turf/open/floor/carpet/purple,
 /area/station/common/night_club)
 "Ir" = (
-/obj/machinery/camera/directional/north{
-	c_tag = "Recreation - Nightclub Upper";
-	name = "hallway camera"
-	},
 /obj/machinery/firealarm/directional/north,
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 2
+	},
+/obj/machinery/camera/directional/north{
+	c_tag = "Recreation - Nightclub Upper";
+	name = "hallway camera"
 	},
 /turf/open/floor/iron/dark,
 /area/station/common/night_club)
@@ -1472,7 +1474,7 @@
 /obj/effect/landmark/navigate_destination,
 /obj/machinery/door/poddoor/shutters/preopen{
 	name = "Nightclub Exterior Shutter";
-	id = NightclubExteriorShutter
+	id = nightclubexteriorshutter
 	},
 /turf/open/floor/iron/dark,
 /area/station/common/night_club)
