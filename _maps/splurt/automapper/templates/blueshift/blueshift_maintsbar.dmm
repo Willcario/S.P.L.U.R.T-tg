@@ -1,0 +1,1964 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ab" = (
+/obj/machinery/button{
+	name = "Nightclub Bedroom Lock";
+	id = nightclubbedroom;
+	pixel_x = 25
+	},
+/obj/structure/table/wood/fancy,
+/obj/item/modular_computer/laptop/preset/civilian,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"al" = (
+/obj/structure/displaycase/forsale/kitchen{
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/table/reinforced/plasmarglass,
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Nightclub Bar Shutters";
+	id = nightclubbarshutters
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"aJ" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/bot,
+/obj/item/wrench,
+/obj/machinery/airalarm/directional/east,
+/obj/machinery/button{
+	id_tag = NightclubChangingRoom;
+	pixel_y = -25;
+	id = s;
+	name = PrivacyLock
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/changing_room)
+"cg" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"ck" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"cq" = (
+/turf/open/floor/light/colour_cycle/dancefloor_b,
+/area/station/common/night_club)
+"cw" = (
+/obj/structure/extinguisher_cabinet/directional/south,
+/turf/open/floor/light/colour_cycle/dancefloor_b,
+/area/station/common/night_club)
+"cO" = (
+/obj/structure/railing,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/duct,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"cV" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/table/reinforced/plasmarglass,
+/obj/item/storage/fancy/cigarettes/cigars/cohiba{
+	pixel_y = 3
+	},
+/obj/item/lighter,
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Nightclub Bar Shutters";
+	id = nightclubbarshutters
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"df" = (
+/obj/structure/chair/comfy/black{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"dm" = (
+/obj/structure/chair/comfy/brown{
+	color = "#596479";
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/back_stage)
+"dB" = (
+/obj/machinery/light_switch/directional/east,
+/obj/machinery/duct,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"es" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/obj/structure/cable,
+/obj/structure/disposalpipe/junction/flip{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/structure/railing/corner/end/flip{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"et" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"ew" = (
+/obj/machinery/vending/dorms,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/back_stage)
+"ey" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/back_stage)
+"eC" = (
+/obj/effect/landmark/event_spawn,
+/obj/effect/decal/cleanable/blood/old{
+	icon_state = "floor7-old"
+	},
+/turf/open/floor/light,
+/area/station/common/night_club)
+"eE" = (
+/obj/structure/window/spawner/directional/north,
+/obj/structure/window/spawner/directional/west,
+/obj/structure/flora/bush/jungle,
+/obj/structure/flora/biolumi/lamp/weaklight,
+/obj/structure/flora/ocean/glowweed,
+/turf/open/floor/grass/fairy,
+/area/station/common/night_club)
+"eQ" = (
+/turf/closed/wall/r_wall,
+/area/station/maintenance/night_club)
+"eT" = (
+/obj/structure/chair/sofa/corp{
+	dir = 8;
+	pixel_x = 7
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"fl" = (
+/obj/structure/chair/sofa/corp/right{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"fE" = (
+/obj/machinery/door/airlock{
+	name = "Front Desk"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"fN" = (
+/obj/machinery/airalarm/directional/east,
+/obj/effect/landmark/start/hangover,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"fS" = (
+/obj/structure/chair/sofa/corp/right{
+	pixel_y = 5
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"gh" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock{
+	name = "Nightclub Bedroom";
+	id_tag = NightclubBedroom;
+	id = nightclubbedroom
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/firedoor,
+/obj/structure/curtain/bounty,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"gX" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/structure/extinguisher_cabinet/directional/south,
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"hV" = (
+/obj/structure/chair/sofa/corp/right{
+	pixel_x = 7
+	},
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"hX" = (
+/turf/closed/wall,
+/area/station/common/night_club/changing_room)
+"hZ" = (
+/turf/template_noop,
+/area/template_noop)
+"ib" = (
+/obj/structure/reagent_dispensers/beerkeg,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"ix" = (
+/obj/structure/window/spawner/directional/east,
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/secure_closet/personal,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/changing_room)
+"iD" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/vending/clothing{
+	extended_inventory = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/changing_room)
+"ja" = (
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = -1;
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/table/reinforced/plasmarglass,
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Nightclub Bar Shutters";
+	id = nightclubbarshutters
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"jQ" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"kk" = (
+/obj/structure/table/reinforced/plasmarglass,
+/obj/machinery/chem_dispenser/drinks{
+	pixel_y = 2
+	},
+/obj/machinery/camera/directional/north{
+	c_tag = "Recreation - Nightclub Bar";
+	name = "hallway camera"
+	},
+/obj/machinery/status_display/evac/directional/north,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"ko" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/obj/structure/curtain/bounty,
+/turf/open/floor/iron/stairs,
+/area/station/common/night_club)
+"kA" = (
+/obj/structure/table/reinforced/plasmarglass,
+/obj/machinery/chem_dispenser/drinks/beer,
+/obj/machinery/computer/security/telescreen/entertainment/directional/west{
+	pixel_x = 0;
+	pixel_y = 32
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"lf" = (
+/obj/machinery/status_display/ai/directional/east,
+/obj/machinery/vending/cigarette,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"ln" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"lL" = (
+/obj/structure/table/reinforced/plasmarglass,
+/obj/structure/stripper_pole,
+/turf/open/floor/light,
+/area/station/common/night_club/back_stage)
+"me" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet,
+/obj/effect/spawner/costume/nyangirl,
+/obj/effect/spawner/costume/sexyclown,
+/obj/item/clothing/under/misc/skyrat/gear_harness,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/changing_room)
+"mj" = (
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"mD" = (
+/obj/structure/chair/sofa/corp/right,
+/obj/structure/window/reinforced/tinted/spawner/directional/north,
+/obj/effect/landmark/start/hangover,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"nr" = (
+/obj/structure/chair/sofa/corp/right{
+	dir = 8
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"nw" = (
+/obj/structure/closet/secure_closet/bar,
+/obj/item/melee/baseball_bat,
+/obj/item/clothing/under/costume/tmc,
+/obj/item/clothing/suit/costume/tmc,
+/obj/item/clothing/shoes/jackboots,
+/obj/item/clothing/glasses/sunglasses,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"op" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/duct,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock{
+	name = "Backstage"
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"oz" = (
+/obj/structure/chair/comfy/brown{
+	color = "#596479"
+	},
+/obj/machinery/button{
+	id = nightclubwindowshutters;
+	name = "Nightclub Window Shutters";
+	pixel_y = 25
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/back_stage)
+"ph" = (
+/obj/structure/table/reinforced,
+/obj/item/instrument/piano_synth,
+/obj/item/instrument/eguitar,
+/obj/item/instrument/saxophone,
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"qq" = (
+/obj/structure/table/reinforced/plasmarglass,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/badminka{
+	pixel_x = -16;
+	pixel_y = 11
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
+	pixel_x = 3;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
+	pixel_y = 5
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Nightclub Bar Shutters";
+	id = nightclubbarshutters
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"qu" = (
+/obj/structure/curtain/bounty,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"qv" = (
+/obj/structure/table/reinforced,
+/obj/item/clipboard,
+/obj/item/folder,
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Nightclub Reception Shutters";
+	id = nightclubreceptionshutters
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"qR" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"qZ" = (
+/obj/structure/sign/poster/contraband/lizard/directional/north,
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"rc" = (
+/obj/structure/sign/poster/contraband/lizard/directional/east,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"rj" = (
+/obj/structure/table/reinforced,
+/obj/item/flashlight/lamp,
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Nightclub Reception Shutters";
+	id = nightclubreceptionshutters
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"ry" = (
+/obj/structure/table/reinforced/plasmarglass{
+	pixel_x = 10
+	},
+/obj/item/bdsm_candle{
+	pixel_y = 6;
+	pixel_x = 9
+	},
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"sh" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/chair/sofa/corp/left{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"sm" = (
+/obj/structure/sign/poster/contraband/energy_swords/directional/south,
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/light/colour_cycle/dancefloor_b,
+/area/station/common/night_club)
+"so" = (
+/obj/structure/chair/sofa/bench,
+/obj/machinery/light/directional/north,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/changing_room)
+"su" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/duct,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"sw" = (
+/turf/closed/wall,
+/area/station/maintenance/night_club)
+"sC" = (
+/obj/structure/chair/comfy/black{
+	dir = 1
+	},
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"tm" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/item/radio/intercom/directional/north,
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"tu" = (
+/obj/effect/landmark/start/hangover,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"tN" = (
+/obj/structure/chair/sofa/corp/corner,
+/obj/structure/window/reinforced/tinted/spawner/directional/north,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"ub" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/vending/autodrobe,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/changing_room)
+"uv" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/changing_room)
+"ux" = (
+/obj/structure/table/reinforced,
+/obj/structure/musician/piano/minimoog{
+	pixel_x = 3;
+	pixel_y = -13
+	},
+/obj/machinery/camera/directional/west{
+	c_tag = "Recreation - Nightclub Starboard";
+	name = "hallway camera"
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"uL" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"uV" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/obj/machinery/barsign{
+	pixel_y = 32
+	},
+/obj/effect/landmark/start/bouncer,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"vD" = (
+/obj/structure/railing,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/duct,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"vI" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 10
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"vM" = (
+/obj/machinery/vending/boozeomat,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/back_stage)
+"wa" = (
+/obj/structure/chair/sofa/corp/left{
+	dir = 8
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"wP" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/changing_room)
+"wV" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/machinery/duct,
+/turf/open/floor/plating,
+/area/station/maintenance/night_club)
+"xl" = (
+/obj/machinery/firealarm/directional/north,
+/turf/template_noop,
+/area/template_noop)
+"xB" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/camera/directional/south{
+	dir = 8
+	},
+/obj/structure/extinguisher_cabinet/directional/west,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"xD" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/extinguisher_cabinet/directional/east,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"xH" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"xS" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"xX" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/holopad,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"xZ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/railing,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"yo" = (
+/obj/structure/rack,
+/obj/item/holosign_creator/robot_seat/bar,
+/obj/item/roulette_wheel_beacon,
+/obj/effect/decal/cleanable/cobweb,
+/obj/item/mop,
+/obj/item/reagent_containers/cup/bucket,
+/obj/item/soap,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"yp" = (
+/obj/structure/sign/poster/contraband/lusty_xenomorph/directional/east,
+/obj/structure/etherealball,
+/obj/machinery/duct,
+/obj/structure/table/reinforced/plasmarglass,
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"yK" = (
+/obj/structure/table/wood/fancy,
+/obj/item/flashlight/lamp,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"yL" = (
+/obj/structure/sign/poster/contraband/borg_fancy_2/directional/south,
+/turf/open/floor/light/colour_cycle/dancefloor_b,
+/area/station/common/night_club)
+"yT" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"yW" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/chair/comfy/black{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"yX" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"zb" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/structure/chair/sofa/corp/corner{
+	pixel_x = 7
+	},
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"zg" = (
+/obj/structure/chair/sofa/bench/left,
+/obj/machinery/status_display/ai/directional/north,
+/obj/item/radio/intercom/directional/east,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/changing_room)
+"zs" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 10
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/structure/mirror{
+	pixel_x = -27
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/changing_room)
+"zF" = (
+/obj/structure/table/reinforced/plasmarglass,
+/turf/open/floor/light,
+/area/station/common/night_club/back_stage)
+"zK" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"zX" = (
+/obj/machinery/door/airlock{
+	name = "Nightclub Storage"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"Ai" = (
+/obj/structure/railing,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/duct,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"AA" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"Bg" = (
+/turf/open/floor/light/colour_cycle/dancefloor_a,
+/area/station/common/night_club)
+"By" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/obj/structure/curtain/bounty,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/public{
+	id = changingroomlock;
+	name = "Changing Room"
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/changing_room)
+"BR" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/sign/poster/contraband/secborg_vale/directional/east,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"BS" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"Cd" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/power/apc/auto_name/directional/west,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"Cv" = (
+/obj/machinery/camera/directional/east{
+	c_tag = "Recreation - Nightclub Lockers";
+	name = "hallway camera"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/changing_room)
+"CN" = (
+/obj/structure/railing,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/duct,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"CP" = (
+/obj/item/bdsm_candle{
+	pixel_y = 6
+	},
+/obj/structure/table/reinforced/plasmarglass,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/back_stage)
+"CT" = (
+/obj/structure/table/reinforced/plasmarglass,
+/obj/item/book/manual/wiki/barman_recipes,
+/obj/machinery/computer/security/telescreen/entertainment/directional/west{
+	pixel_x = 0;
+	pixel_y = 32
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"Df" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"Dn" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/closed/wall,
+/area/station/common/night_club/back_stage)
+"Dr" = (
+/obj/machinery/button/door{
+	name = "Nightclub Reception Shutters";
+	id = nightclubreceptionshutters;
+	pixel_y = 25;
+	pixel_x = -6
+	},
+/obj/machinery/button{
+	id = nightclubexteriorshutter;
+	name = "Nightclub Exterior Shutters";
+	pixel_y = 25;
+	pixel_x = 6
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"Dv" = (
+/obj/machinery/duct,
+/obj/machinery/airalarm/directional/east,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"Dz" = (
+/obj/structure/extinguisher_cabinet/directional/east,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"DF" = (
+/obj/structure/dresser,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"Eo" = (
+/obj/structure/curtain/bounty,
+/obj/machinery/door/airlock{
+	name = "Nightclub Bar"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/changing_room)
+"Eu" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/vending/boozeomat{
+	pixel_y = 32;
+	density = 0
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"EA" = (
+/obj/structure/sign/poster/contraband/have_a_puff/directional/south,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"EB" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet,
+/obj/effect/spawner/costume/cutewitch,
+/obj/effect/spawner/costume/sexymime,
+/obj/structure/extinguisher_cabinet/directional/west,
+/obj/item/clothing/under/misc/skyrat/gear_harness,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/changing_room)
+"EC" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/curtain/bounty,
+/obj/machinery/door/airlock{
+	name = "Nightclub Employee Area"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/firedoor,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"EI" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"Fa" = (
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/light/colour_cycle/dancefloor_b,
+/area/station/common/night_club)
+"Fl" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"Fw" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/obj/machinery/camera/directional/north{
+	c_tag = "Recreation - Nightclub Entrance";
+	name = "hallway camera";
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"FL" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"Gz" = (
+/obj/machinery/camera/directional/south,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/table/reinforced/plasmarglass{
+	pixel_x = 2
+	},
+/obj/item/bdsm_candle{
+	pixel_y = 6;
+	pixel_x = 2
+	},
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"GE" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/duct,
+/obj/structure/railing,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"GT" = (
+/obj/effect/spawner/structure/window/reinforced/tinted,
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Nightclub Exterior Shutter";
+	id = nightclubexteriorshutter
+	},
+/turf/open/floor/plating,
+/area/station/common/night_club)
+"HP" = (
+/obj/machinery/light/small/directional/south,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"Ib" = (
+/obj/structure/chair/sofa/corp/left{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 10
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"Ij" = (
+/obj/structure/window/spawner/directional/west,
+/obj/structure/flora/bush/jungle/b,
+/obj/structure/flora/biolumi/mine/weaklight,
+/obj/structure/flora/ocean/glowweed{
+	pixel_x = 11
+	},
+/turf/open/floor/grass/fairy,
+/area/station/common/night_club)
+"Il" = (
+/obj/structure/chair/wood/wings{
+	dir = 4
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"Ir" = (
+/obj/machinery/camera/directional/north{
+	c_tag = "Recreation - Nightclub Upper";
+	name = "hallway camera"
+	},
+/obj/machinery/firealarm/directional/north,
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 2
+	},
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"Jh" = (
+/obj/structure/sign/poster/contraband/busty_backdoor_xeno_babes_6/directional/west,
+/obj/machinery/restaurant_portal/bar,
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"Jq" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/button/door{
+	name = "Nightclub Bar Shutters";
+	pixel_x = 25;
+	id = nightclubbarshutters
+	},
+/obj/machinery/light/directional/east,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"JA" = (
+/turf/closed/wall,
+/area/station/common/night_club/back_stage)
+"JH" = (
+/obj/structure/window/spawner/directional/east,
+/obj/effect/turf_decal/bot,
+/obj/structure/closet,
+/obj/effect/spawner/costume/maid,
+/obj/effect/spawner/costume/maid,
+/obj/item/clothing/under/misc/skyrat/gear_harness,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/changing_room)
+"KR" = (
+/obj/machinery/status_display/evac/directional/east,
+/obj/machinery/vending/dorms,
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"LX" = (
+/obj/machinery/duct,
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"MX" = (
+/obj/machinery/light/directional/west,
+/obj/structure/bed/double{
+	dir = 4
+	},
+/obj/item/bedsheet/blue/double{
+	dir = 1
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"Nn" = (
+/obj/machinery/disposal/bin,
+/obj/effect/turf_decal/delivery,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/changing_room)
+"NZ" = (
+/obj/structure/chair/sofa/corp/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"Oh" = (
+/obj/machinery/duct,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"OX" = (
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/back_stage)
+"OZ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/changing_room)
+"Pe" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/obj/structure/table/reinforced/plasmarglass{
+	pixel_y = -6;
+	pixel_x = 2
+	},
+/obj/item/bdsm_candle{
+	pixel_x = 1
+	},
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"Pi" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/obj/machinery/duct,
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"Po" = (
+/turf/closed/wall,
+/area/station/service/barber)
+"Pp" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_y = 3
+	},
+/obj/item/pen{
+	pixel_y = 3
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Nightclub Reception Shutters";
+	id = nightclubreceptionshutters
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"Pw" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/table/reinforced/plasmarglass,
+/obj/item/rag{
+	pixel_y = 3
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Nightclub Bar Shutters";
+	id = nightclubbarshutters
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"PI" = (
+/obj/structure/window/spawner/directional/south,
+/obj/structure/window/spawner/directional/west,
+/obj/structure/flora/bush/jungle/a/style_3,
+/obj/structure/flora/biolumi/flower/weaklight,
+/turf/open/floor/grass/fairy,
+/area/station/common/night_club)
+"PL" = (
+/obj/machinery/door/airlock/silver{
+	name = "Stage"
+	},
+/obj/machinery/duct,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"PZ" = (
+/obj/machinery/modular_computer/preset/civilian{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot,
+/obj/item/radio/intercom/directional/east,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"Qe" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/machinery/light/directional/east,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club/back_stage)
+"Qp" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/turf/open/floor/plating,
+/area/station/maintenance/night_club)
+"Qx" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/structure/chair/sofa/corp/corner{
+	pixel_x = 7;
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"QH" = (
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/light/colour_cycle/dancefloor_a,
+/area/station/common/night_club)
+"Rs" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/back_stage)
+"RY" = (
+/obj/machinery/light/directional/west,
+/obj/structure/extinguisher_cabinet/directional/west,
+/obj/machinery/chem_master/condimaster{
+	name = "HoochMaster 2000"
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"Sj" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"Sr" = (
+/obj/structure/chair/sofa/corp/left{
+	dir = 1;
+	pixel_x = 7
+	},
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"Sw" = (
+/obj/machinery/duct,
+/obj/structure/curtain/bounty,
+/turf/open/floor/iron/stairs,
+/area/station/common/night_club)
+"SV" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/obj/machinery/light/directional/west,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"Tg" = (
+/turf/closed/wall/r_wall,
+/area/station/common/night_club/back_stage)
+"Uc" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Nightclub Window Shutters";
+	id = nightclubwindowshutters
+	},
+/turf/open/floor/plating,
+/area/station/common/night_club/back_stage)
+"Uq" = (
+/obj/machinery/duct,
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"Us" = (
+/obj/structure/railing/corner/end{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"Vm" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"Wj" = (
+/turf/closed/wall,
+/area/station/common/night_club)
+"Wr" = (
+/obj/structure/chair/sofa/bench/right,
+/obj/machinery/status_display/evac/directional/north,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club/changing_room)
+"Ws" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Night Club"
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/duct,
+/obj/effect/landmark/navigate_destination,
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Nightclub Exterior Shutter";
+	id = NightclubExteriorShutter
+	},
+/turf/open/floor/iron/dark,
+/area/station/common/night_club)
+"WR" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/item/radio/intercom/directional/east,
+/obj/structure/sink/directional/west,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"WU" = (
+/obj/structure/table/reinforced/plasmarglass,
+/obj/machinery/reagentgrinder{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/cup/glass/shaker{
+	pixel_x = 4
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"Xj" = (
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/machinery/jukebox/no_access,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"XV" = (
+/obj/item/radio/intercom/directional/south,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"Yz" = (
+/obj/machinery/vending/wardrobe/bar_wardrobe,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+"YS" = (
+/obj/structure/chair/sofa/corp/left{
+	pixel_y = 5
+	},
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/carpet/purple,
+/area/station/common/night_club)
+"YT" = (
+/turf/closed/wall/r_wall,
+/area/station/common/night_club/changing_room)
+"Zp" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/table/reinforced/plasmarglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = -1;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Nightclub Bar Shutters";
+	id = nightclubbarshutters
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/common/night_club)
+
+(1,1,1) = {"
+hZ
+hZ
+hZ
+hZ
+hZ
+hZ
+hZ
+hZ
+hZ
+hZ
+hZ
+hZ
+hZ
+Tg
+Tg
+Tg
+Tg
+Tg
+hZ
+"}
+(2,1,1) = {"
+hZ
+hZ
+hZ
+hZ
+hZ
+YT
+YT
+YT
+YT
+YT
+Uc
+Uc
+Uc
+Tg
+zF
+zF
+zF
+Tg
+eQ
+"}
+(3,1,1) = {"
+hZ
+hZ
+hZ
+hZ
+hZ
+YT
+iD
+zs
+EB
+hX
+oz
+CP
+dm
+mD
+zF
+lL
+zF
+Ib
+eQ
+"}
+(4,1,1) = {"
+hZ
+hZ
+hZ
+hZ
+hZ
+hX
+ub
+wP
+me
+hX
+ey
+OX
+Rs
+tN
+wa
+zF
+nr
+NZ
+sw
+"}
+(5,1,1) = {"
+hZ
+hZ
+hZ
+hZ
+hZ
+hX
+ix
+wP
+JH
+hX
+AA
+BR
+xD
+Qe
+fN
+rc
+xH
+ck
+Qp
+"}
+(6,1,1) = {"
+hZ
+hZ
+hZ
+hZ
+hZ
+hX
+Wr
+wP
+Nn
+hX
+qu
+Dn
+JA
+JA
+JA
+JA
+vM
+ew
+sw
+"}
+(7,1,1) = {"
+hZ
+hZ
+hZ
+hZ
+hZ
+hX
+so
+OZ
+uv
+By
+HP
+Wj
+ph
+ux
+cg
+sw
+sw
+sw
+sw
+"}
+(8,1,1) = {"
+hZ
+hZ
+hZ
+hZ
+hZ
+hX
+zg
+Cv
+aJ
+hX
+su
+PL
+LX
+Uq
+LX
+wV
+hZ
+hZ
+hZ
+"}
+(9,1,1) = {"
+Wj
+Wj
+Wj
+Wj
+Wj
+hX
+hX
+Eo
+hX
+hX
+op
+Wj
+tm
+FL
+gX
+sw
+sw
+hZ
+hZ
+"}
+(10,1,1) = {"
+Wj
+DF
+MX
+yK
+Wj
+WU
+RY
+mj
+al
+Jh
+Ai
+cq
+Fa
+cq
+Fa
+cq
+Po
+hZ
+hZ
+"}
+(11,1,1) = {"
+Wj
+fS
+zK
+Sj
+Wj
+CT
+Vm
+mj
+Pw
+df
+CN
+cq
+Bg
+QH
+Bg
+yL
+Po
+hZ
+hZ
+"}
+(12,1,1) = {"
+Wj
+YS
+jQ
+Il
+Wj
+kk
+EI
+mj
+ja
+df
+Ai
+Fa
+Bg
+eC
+Bg
+cw
+Po
+hZ
+hZ
+"}
+(13,1,1) = {"
+Wj
+nw
+uL
+ab
+Wj
+kA
+EI
+mj
+Zp
+sC
+Ai
+cq
+QH
+Bg
+QH
+sm
+Po
+hZ
+hZ
+"}
+(14,1,1) = {"
+Wj
+Wj
+gh
+Wj
+Wj
+Wj
+Eu
+et
+qq
+sC
+vD
+Fa
+cq
+cq
+cq
+cq
+Po
+hZ
+hZ
+"}
+(15,1,1) = {"
+Wj
+Yz
+yT
+xB
+Cd
+EC
+Jq
+WR
+cV
+yW
+cO
+Fl
+Pe
+sh
+fl
+Gz
+Po
+hZ
+hZ
+"}
+(16,1,1) = {"
+Wj
+Wj
+zX
+Wj
+fE
+Wj
+Wj
+Wj
+Wj
+Ir
+es
+ln
+Us
+tu
+yX
+vI
+Po
+hZ
+hZ
+"}
+(17,1,1) = {"
+Wj
+yo
+xS
+Wj
+Dr
+rj
+Fw
+SV
+ko
+Df
+Pi
+xX
+hV
+ry
+Sr
+XV
+Po
+hZ
+hZ
+"}
+(18,1,1) = {"
+Wj
+ib
+EI
+Wj
+uV
+qv
+xZ
+qR
+Wj
+qZ
+Oh
+BS
+zb
+eT
+Qx
+EA
+Po
+xl
+hZ
+"}
+(19,1,1) = {"
+Wj
+Xj
+Dz
+Wj
+PZ
+Pp
+GE
+Dv
+Sw
+dB
+yp
+KR
+eE
+Ij
+PI
+lf
+Po
+hZ
+hZ
+"}
+(20,1,1) = {"
+Wj
+Wj
+Wj
+Wj
+Wj
+Wj
+Ws
+Wj
+Wj
+Wj
+Wj
+Wj
+GT
+GT
+GT
+Wj
+Po
+hZ
+hZ
+"}
