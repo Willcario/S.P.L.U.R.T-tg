@@ -304,7 +304,7 @@ trait_name = "Station"
 # Blueshift Maints bar edit
 [templates.blueshift_maintsbar]
 map_files = ["blueshift_maintsbar.dmm"]
-directory = "_maps/splurt/blueshift_maintsbar.dmm"
+directory = "_maps/splurt/automapper/templates/blueshift/blueshift_maintsbar.dmm"
 required_map = "Blueshift.dmm"
 coordinates = [67, 116, 1]
 trait_name = "Station"
