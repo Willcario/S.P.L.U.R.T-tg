@@ -367,6 +367,7 @@
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/glasses/sunglasses,
 /obj/structure/closet/secure_closet/personal/cabinet,
+/obj/item/roulette_wheel_beacon,
 /turf/open/floor/carpet/purple,
 /area/station/common/night_club)
 "op" = (
@@ -391,12 +392,10 @@
 /obj/structure/chair/comfy/brown{
 	color = "#596479"
 	},
-/obj/machinery/button/door/directional/south{
+/obj/machinery/button/door{
+	name = "Nightclub Window Shutters";
 	id = nightclubwindowshutters;
-	name = "Nightclub Entrance Shutters";
-	normaldoorcontrol = 1;
-	pixel_y = 25;
-	id_tag = nightclubwindowshutters
+	pixel_y = 25
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/station/common/night_club/back_stage)
@@ -724,13 +723,11 @@
 /area/station/common/night_club)
 "yo" = (
 /obj/structure/rack,
-/obj/item/holosign_creator/robot_seat/bar,
-/obj/item/roulette_wheel_beacon,
 /obj/effect/decal/cleanable/cobweb,
 /obj/item/mop,
-/obj/item/reagent_containers/cup/bucket,
-/obj/item/soap,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/item/soap,
+/obj/item/reagent_containers/cup/bucket,
 /turf/open/floor/iron/dark/textured_large,
 /area/station/common/night_club)
 "yp" = (
@@ -825,15 +822,6 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/dark/textured_large,
 /area/station/common/night_club)
-"Ac" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	name = "Nightclub Window Shutters";
-	id = nightclubwindowshutters;
-	id_tag = nightclubwindowshutters
-	},
-/turf/open/floor/plating,
-/area/station/common/night_club/back_stage)
 "Ai" = (
 /obj/structure/railing,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -951,6 +939,7 @@
 	pixel_x = 0;
 	pixel_y = 32
 	},
+/obj/item/holosign_creator/robot_seat/bar,
 /turf/open/floor/iron/dark/textured_large,
 /area/station/common/night_club)
 "Df" = (
@@ -974,13 +963,11 @@
 	pixel_y = 25;
 	pixel_x = -6
 	},
-/obj/machinery/button/door/directional/south{
-	id = nightclubentranceshutters;
+/obj/machinery/button/door{
 	name = "Nightclub Entrance Shutters";
-	normaldoorcontrol = 1;
+	id = nightclubentranceshutters;
 	pixel_y = 25;
-	pixel_x = 6;
-	id_tag = nightclubentranceshutters
+	pixel_x = 6
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/station/common/night_club)
@@ -1119,8 +1106,7 @@
 /obj/effect/spawner/structure/window/reinforced/tinted,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = nightclubentranceshutters;
-	name = "Nightclub Shutters";
-	id_tag = nightclubentranceshutters
+	name = "Nightclub Shutters"
 	},
 /turf/open/floor/plating,
 /area/station/common/night_club)
@@ -1488,8 +1474,7 @@
 /obj/effect/landmark/navigate_destination,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = nightclubentranceshutters;
-	name = "Nightclub Shutters";
-	id_tag = nightclubentranceshutters
+	name = "Nightclub Shutters"
 	},
 /turf/open/floor/iron/dark,
 /area/station/common/night_club)
@@ -1591,7 +1576,7 @@ YT
 YT
 YT
 YT
-Ac
+Uc
 Uc
 Uc
 Tg
