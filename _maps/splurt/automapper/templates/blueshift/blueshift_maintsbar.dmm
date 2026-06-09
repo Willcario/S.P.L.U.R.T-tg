@@ -328,7 +328,9 @@
 /area/station/common/night_club)
 "lL" = (
 /obj/structure/table/reinforced/plasmarglass,
-/obj/structure/stripper_pole,
+/obj/structure/stripper_pole{
+	pixel_y = 10
+	},
 /turf/open/floor/light,
 /area/station/common/night_club/back_stage)
 "me" = (
@@ -389,10 +391,12 @@
 /obj/structure/chair/comfy/brown{
 	color = "#596479"
 	},
-/obj/machinery/button{
+/obj/machinery/button/door/directional/south{
 	id = nightclubwindowshutters;
-	name = "Nightclub Window Shutters";
-	pixel_y = 25
+	name = "Nightclub Entrance Shutters";
+	normaldoorcontrol = 1;
+	pixel_y = 25;
+	id_tag = nightclubwindowshutters
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/station/common/night_club/back_stage)
@@ -821,6 +825,15 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/dark/textured_large,
 /area/station/common/night_club)
+"Ac" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Nightclub Window Shutters";
+	id = nightclubwindowshutters;
+	id_tag = nightclubwindowshutters
+	},
+/turf/open/floor/plating,
+/area/station/common/night_club/back_stage)
 "Ai" = (
 /obj/structure/railing,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -965,7 +978,6 @@
 	id = nightclubentranceshutters;
 	name = "Nightclub Entrance Shutters";
 	normaldoorcontrol = 1;
-	specialfunctions = 4;
 	pixel_y = 25;
 	pixel_x = 6;
 	id_tag = nightclubentranceshutters
@@ -1105,6 +1117,11 @@
 /area/station/common/night_club)
 "GT" = (
 /obj/effect/spawner/structure/window/reinforced/tinted,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = nightclubentranceshutters;
+	name = "Nightclub Shutters";
+	id_tag = nightclubentranceshutters
+	},
 /turf/open/floor/plating,
 /area/station/common/night_club)
 "HP" = (
@@ -1143,7 +1160,7 @@
 /turf/open/floor/grass/fairy,
 /area/station/common/night_club)
 "Il" = (
-/obj/structure/chair/wood/wings{
+/obj/structure/chair/wood{
 	dir = 4
 	},
 /turf/open/floor/carpet/purple,
@@ -1574,7 +1591,7 @@ YT
 YT
 YT
 YT
-Uc
+Ac
 Uc
 Uc
 Tg
